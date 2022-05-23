@@ -8,7 +8,7 @@ const ColourSelector = (props) => {
       className={classname}
       onClick={() => selectNextBackground({ background: key })}
     >
-      {/* label should come here */}
+      {label}
     </button>
   );
 };
